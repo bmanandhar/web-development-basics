@@ -1,0 +1,1 @@
+This project has been prepared to have a firm knowledge about CSS in front-end. It contains a lot of exercises on different properties and values of CSS. Please try to understand all the code written on this project so that you will have a deep knowledge on HTML, CSS, mnay more that are necessary in creating a good front-end project. Good Luck!
