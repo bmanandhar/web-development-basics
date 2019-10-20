@@ -1,0 +1,1 @@
+This is an exercise project for CSS rules that includes normalize.css, float, overflow etc
