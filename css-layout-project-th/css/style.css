@@ -18,7 +18,6 @@ p {
 }
 
 h2,
-h3,
 a {
 	color: #093a58;
 }
@@ -49,13 +48,12 @@ img {
 .main-nav li {
 	text-align: center;
 	background: #fff;
-	margin-top: 6px;
-	margin-bottom: 6px;
+	margin: 6px 0; /* left and right no-margin */
 }
 
 .name a,
 .main-nav a {
-	padding: 10px 15px;
+	padding: 10px 15px; /* padding top/bottom 10px, left/righ 15px */
 	text-align: center;
 	display: block;
 }
@@ -77,14 +75,14 @@ img {
 }
 
 .main-header, 
-.banner,
+banner,
 .main-footer {
 	padding: 1.5em 0; /* -- left and right no-padding -- */
 	margin-bottom: 20px;
 	text-align: center;
 }
 
-.banner {
+banner {
 	color: #fff;
 	background: #3acec2;
 	display: block;
@@ -111,11 +109,6 @@ img {
 		min-height: calc(100vh - 89px);
 	}
 
-	.container {
-		width: 85%;
-		max-width: 1150px;
-		margin: 0 auto;
-	}
 	/* ---- Float clearfix ---- */
 
 .main-nav {
@@ -167,6 +160,12 @@ img {
 	 
 	.wrap {
 		min-height: calc(100vh - 89px);
+	}
+
+	.container {
+		width: 85%;
+		max-width: 1150px;
+		margin: 0 auto;
 	}
 	.primary {
 		width: 40%;
