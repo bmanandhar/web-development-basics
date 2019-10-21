@@ -75,14 +75,14 @@ img {
 }
 
 .main-header, 
-banner,
+.banner,
 .main-footer {
 	padding: 1.5em 0; /* -- left and right no-padding -- */
 	margin-bottom: 20px;
 	text-align: center;
 }
 
-banner {
+.banner {
 	color: #fff;
 	background: #3acec2;
 	display: block;
@@ -140,7 +140,6 @@ banner {
 
 .feat-img {
 	width: 300px;
-	float: left;
 	margin-top: 5px;
 	margin-right: 25px;
 	margin-bottom: 25px;
@@ -177,8 +176,7 @@ banner {
 	}
 
 	.feat-img {
-		width: 300px;
-		float: left;
+		width: 100%;
 		margin-top: 5px;
 		margin-right: 25px;
 		margin-bottom: 25px;
@@ -192,7 +190,6 @@ banner {
 		clear: both;
 	} 
 
-}
 /*
   If you get stuck, feel free to watch the follow-up videos where I'll show you one solution
 */
