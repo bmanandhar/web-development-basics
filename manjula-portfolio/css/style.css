@@ -82,7 +82,6 @@ figcaption {
 	}
 	
 	.main-nav a {
-		width: 132px;
 		font-size: .95em;
 		color: #3acec2;
 		text-transform: uppercase;
@@ -127,6 +126,7 @@ figcaption {
 
 .logo {
 	width: 190px;
+	border-radius: 50%;
 }
 
 .headline {
